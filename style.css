@@ -158,3 +158,38 @@ footer {
     align-items: center;
   }
 }
+
+/* ------------------------------------- */
+/*       🔥 ADDED MOBILE FIXES BELOW     */
+/* ------------------------------------- */
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix navbar wrapping on small screens */
+.navbar {
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  margin-top: 10px;
+}
+
+/* Reduce hero height in mobile */
+.hero {
+  height: 60vh;
+}
+
+/* Improve small mobile screens */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .hero-content {
+    padding: 20px;
+  }
+}
